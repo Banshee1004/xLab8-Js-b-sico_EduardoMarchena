@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promedio de calificaciones</title>
+  <link rel="stylesheet" href="css/promedio.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>3. Promedio de calificaciones</h1>
+
+    <!-- Campos de entrada -->
+      <label for="nombre">Nombre del estudiante</label>
+      <input type="text" id="nombre" maxlength="50" placeholder="Nombre del estudiante">
+      <label for="c1">Calificación 1</label>
+      <input type="number" id="c1" step="any" placeholder="Calificación 1">
+      <label for="c2">Calificación 2</label>
+      <input type="number" id="c2" step="any" placeholder="Calificación 2">
+      <label for="c3">Calificación 3</label>
+      <input type="number" id="c3" step="any" placeholder="Calificación 3">
+
+    <!-- Botón que ejecuta el cálculo -->
+    <button id="btnCalcular">Calcular promedio</button>
+
+    <!-- Botón que limpia los campos y el resultado -->
+    <button id="btnLimpiar" class="limpiar">Limpiar</button>
+
+    <!-- Área donde se muestra el resultado -->
+    <div id="resultado"></div>
+
+    <a class="volver" href="index.html">← Volver al menú</a>
+  </main>
+
+  <script src="js/promedio.js"></script>
+</body>
+</html>
